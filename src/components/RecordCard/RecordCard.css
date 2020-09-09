@@ -1,0 +1,36 @@
+.recordCard {
+    width: 33%;
+    box-shadow: none !important;
+    border: 1px solid rgba(155, 155, 155, 0.4);
+}
+
+.recordCard:hover {
+    cursor: pointer;
+}
+
+.recordCard h2 {
+    margin-bottom: 5px;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 1.4rem !important;
+}
+
+.active-red {
+    border-top: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.active-green {
+    border-top: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.active-orange {
+    border-top: 10px solid rgba(255, 160, 0, 0.5);
+}
+
+@media (max-width: 625px){
+    .recordCard {
+        width: 100%;
+    }
+}

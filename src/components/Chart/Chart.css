@@ -1,0 +1,13 @@
+.chart {
+    margin-top: 10px;
+    height: 30vh;
+}
+
+.chart h4 {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.caseType {
+    text-transform: capitalize;
+}

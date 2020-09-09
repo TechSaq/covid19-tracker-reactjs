@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_left {
+    width: 65%;
+}
+
+.app_right {
+    width: 34%;
+}
+
+.app_stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media (max-width: 625px) {
+    .app{
+        flex-direction: column;
+    }
+    .app_left {
+        width: 100%;
+    }
+    .app_right {
+        width: 100%;
+    }
+    .app_stats {
+        flex-direction: column;
+    }
+}

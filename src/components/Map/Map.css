@@ -1,0 +1,34 @@
+.map {
+    width: 100%;
+    height: 360px;
+    border: 5px solid rgba(141, 141, 141, 0.164);
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.map .leaflet-container {
+    height: 100%;
+}
+
+.popup_stats {
+    margin-top: 15px;
+}
+
+.popup_stats p {
+    margin: 5px 0 !important;
+    font-size: 0.9rem;
+}
+
+.popup_header {
+    display: flex;
+}
+
+.popup_header h3 {
+    font-size: 1.1rem;
+}
+
+.popup img {
+    width: 25px;
+    object-fit: contain;
+    margin-right: 5px;
+}

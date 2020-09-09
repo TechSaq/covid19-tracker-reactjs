@@ -1,0 +1,20 @@
+.app_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_header h1 {
+    color: red;
+}
+
+.app_dropdown > div > div {
+    padding: 6px 15px;
+}
+
+
+@media (max-width: 625px){
+    .app_header h1 {
+        font-size: 1.4rem;
+    }
+}
